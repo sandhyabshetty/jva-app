@@ -13,7 +13,9 @@
         <maven.compiler.target>23</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-         <plugin>
+<build>
+<plugins>
+  <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-jar-plugin</artifactId>
     <version>3.5.0</version>
@@ -24,6 +26,8 @@
             </manifest>
         </archive>
     </configuration>
-</plugin>
-
+ </plugin>
+</plugins>
+</build>
+         
 </project>
