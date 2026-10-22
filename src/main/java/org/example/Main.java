@@ -7,5 +7,6 @@ public class Main {
         System.out.println("Hello and welcome!");
         System.out.println("good day");
         System.out.println("Hi Devops");
+         System.out.println("this is my maven jar application");
         }
     }
